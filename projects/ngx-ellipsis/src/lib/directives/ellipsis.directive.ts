@@ -224,7 +224,7 @@ export class EllipsisDirective implements OnChanges, OnDestroy, AfterViewInit {
 
     // add a wrapper div (required for resize events to work properly):
     this.renderer.setProperty(this.elem, 'innerHTML', '');
-    this.innerElem = this.renderer.createElement('div');
+    this.innerElem = this.renderer.createElement('p');
     this.renderer.addClass(this.innerElem, 'ngx-ellipsis-inner');
     const text = this.renderer.createText(this.originalText);
     this.renderer.appendChild(this.innerElem, text);
