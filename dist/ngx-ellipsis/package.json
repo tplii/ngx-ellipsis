@@ -1,0 +1,28 @@
+{
+  "name": "ngx-ellipsis-test",
+  "version": "0.0.1",
+  "description": "Multiline text with ellipsis for angular 9+",
+  "author": "test",
+  "license": "MIT",
+  "readme": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lentschi/ngx-ellipsis"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=9.0.0 <14.0.0 || >10.0.0-beta <14.0.0",
+    "@angular/core": ">=9.0.0 <14.0.0 || >10.0.0-beta <14.0.0"
+  },
+  "dependencies": {
+    "@juggle/resize-observer": "*",
+    "tslib": "^2.0.0"
+  },
+  "main": "bundles/ngx-ellipsis-test.umd.js",
+  "module": "fesm2015/ngx-ellipsis-test.js",
+  "es2015": "fesm2015/ngx-ellipsis-test.js",
+  "esm2015": "esm2015/ngx-ellipsis-test.js",
+  "fesm2015": "fesm2015/ngx-ellipsis-test.js",
+  "typings": "ngx-ellipsis-test.d.ts",
+  "metadata": "ngx-ellipsis-test.metadata.json",
+  "sideEffects": false
+}
